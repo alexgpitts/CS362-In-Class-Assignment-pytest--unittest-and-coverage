@@ -15,7 +15,7 @@ class TestCase(unittest.TestCase):
 
 
 
-#pytest funcitons (same as above, just different testing framework)
+#pytest functions (same as above, just different testing framework)
 def test_fib_9():
     assert fibonacci.fib(9) == 34
     
